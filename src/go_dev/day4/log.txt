@@ -1,0 +1,29 @@
+各组件介绍
+
+1 Log Agent  日志收集客户端，用来收集服务器上的日志
+2 Kafka      高吞吐量的分布式队列，linkin开发
+3 Es         elasticsearch 开源搜索引擎，提供基于http restful 的web接口
+4 Hadoop     分布式计算框架，能够对大量数据进行分布式处理的平台
+
+kafka应用场景
+1 消息队列，实现异步，提高系统的健壮性
+2 消息队列，实现应用解耦
+3 流量消峰
+
+zookeeper应用场景
+
+1 服务注册服务实现
+业务A
+业务B  zookeeper   web平台
+业务C
+
+2  分布式锁
+
+
+安装kafka
+a  安装JDK
+b  安装zookeeper
+c  安装kafka
+
+
+
