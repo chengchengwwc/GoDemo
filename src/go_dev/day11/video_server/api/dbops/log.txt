@@ -1,0 +1,13 @@
+共创建四张表
+
+1 users
+id login_name pwd
+
+2 video_info
+id author_id name display_ctime create_time
+
+3 comments
+id  video_id author_id content time
+
+4 session
+session_id,TTL

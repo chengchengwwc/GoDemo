@@ -1,0 +1,5 @@
+etcd 介绍
+概念：高可用的分布式key-value存储 可以用于配置共享和服务发现
+类似项目： zookeeper 和consul
+接口： 提供restful的http接口 使用简单
+实现算法：基于raft算法的强一致性 高可用服务存储目录
