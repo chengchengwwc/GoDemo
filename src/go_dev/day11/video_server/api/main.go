@@ -17,6 +17,7 @@ func NewMiddleWareHandler(r *httprouter.Router) http.Handler{
 }
 
 func (m middlwWareHandler) ServeHTTP(w http.ResponseWriter,r *http.Request){
+	// 中间件写到这里来
 	// check session
 	validateUserSession(r)
 	m.r.ServeHTTP(w,r)
